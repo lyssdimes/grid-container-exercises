@@ -21,25 +21,26 @@
 
 .header{
     grid-column: 1 / -1;
-    background-color: palegreen;
+    background-color: palevioletred;
 }
 .main_content{
     grid-column: 2 / 3;
     background-color: pink;
+    text-align: center;
 }
 
 .left_sidebar{
     grid-column: 1 / 2;
-    background-color:blue;
+    background-color: rgb(219, 161, 201);
 
 }
 .right_sidebar{
     grid-column: 3 / 4;
-    background-color: aqua;
+    background-color:  rgb(219, 161, 201);
 }
 .footer{
     grid-column: 1 / -1;
-    background-color: yellow;
+    background-color: palevioletred;
 }
 img{
     max-width: 30%;
